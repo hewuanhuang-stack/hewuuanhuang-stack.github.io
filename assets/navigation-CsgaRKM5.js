@@ -1,0 +1,1 @@
+function t(e,n){if(typeof window>"u")return;const o=e&&typeof e.resolve=="function"?e.resolve(n).href:typeof n=="string"?n:"";if(!o)return;const r=window.open(o,"_blank","noopener");if(r)try{r.opener=null}catch{}}export{t as o};
